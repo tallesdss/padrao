@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: 'wallpapers.com',
         pathname: '/images/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'site-porque.s3.amazonaws.com',
+        pathname: '/**',
+      },
     ],
   },
 };
